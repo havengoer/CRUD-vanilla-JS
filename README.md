@@ -12,5 +12,3 @@
 7. then create .gitignore and add "node_modules"
 
 8. install nodemon
-
-9. 
