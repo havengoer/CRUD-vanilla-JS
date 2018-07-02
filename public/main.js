@@ -23,7 +23,7 @@ button.addEventListener('click', () => {
 
 function getCount () {
     // console.log('fired get count');
-    fetch('http://localhost:3000/getcount')
+    fetch('http://54.227.168.190:3000/getcount')
     .then(res => res.json())
     .then(data => {
         document.getElementById('number').textContent = data.count.toString()
