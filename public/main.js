@@ -3,7 +3,7 @@ window.onload = getCount;
 const button = document.getElementById('btn');
 
 button.addEventListener('click', () => {
-    fetch('http://localhost:3000/increase', {
+    fetch('http://54.227.168.190:3000/increase', {
         method: 'PUT',
         headers: {
             'Content-type': 'application/json'
